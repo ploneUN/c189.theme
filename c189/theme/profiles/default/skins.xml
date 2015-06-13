@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="Sunburst Theme">
+   <object name="c189_theme"
+        meta_type="Filesystem Directory View"
+        directory="c189.theme:skins/c189_theme"/>
+    <skin-path name="*">
+        <layer name="c189_theme"
+                insert-after="custom"/>
+    </skin-path>
+</object>

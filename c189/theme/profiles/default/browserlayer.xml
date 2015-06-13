@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+    <layer name="c189.theme"
+        interface="c189.theme.interfaces.IProductSpecific" />
+</layers>
